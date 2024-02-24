@@ -56,7 +56,7 @@ main {
 
 .imagem-joaninha {
   box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.411); 
-  background-image: url("/imagens/background001.jpg");
+  background-image: url("imagens/background001.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -72,7 +72,7 @@ main {
 
 .imagem-livro {
   box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.411); 
-  background-image: url("/imagens/background002.jpg");
+  background-image: url("imagens/background002.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
