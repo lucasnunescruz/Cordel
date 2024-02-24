@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 3em 0 3em 0;
+  width: 100%;
+}
+
+header h1 {
+  font-family: "Passion One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 8.5em;
+  font-variant: small-caps;
+}
+
+header a {
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+main p {
+  font-family:"Sriracha", cursive;
+  font-weight: 400;
+  font-size: 2.9375em;
+  line-height: 2em;
+  margin: 1.4em .8em 2.5em ;
+}
+
+main {
+  margin-bottom: 2em;
+}
+
+.imagem-joaninha {
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.411); 
+  background-image: url("/imagens/background001.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imagem-joaninha > p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  width: 42%;
+  padding-left: 0.5%;
+}
+
+.imagem-livro {
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.411); 
+  background-image: url("/imagens/background002.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imagem-livro > p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.473);
+  color: white;
+  width: 43%;
+  padding-left: 0.8%;
+
+}
+
+footer {
+  width: 100%;
+  padding: .7em 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+ footer a {
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+ }
+
